@@ -10,8 +10,8 @@ def mul(a, b):
     return a*b
 
 
-def div(a, b):
-    return a/b
+def div(a: int, b: int) -> int:
+    return a//b
 
 
 if __name__ == '__main__':
